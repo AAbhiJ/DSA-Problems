@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {string[]}
  * Time Complexity : O(N) - As we are need to iterate for n times (N - n (Number))
- * Space Complexity : O(N) - As we are creating a arr of size N to store the answers
+ * Space Complexity : O(1) - As we are creating a answerArr of size N, however this do not contribute to the Space complexity
  */
 var fizzBuzz = function (n) {
     let answerArr = [];
