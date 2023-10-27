@@ -12,7 +12,7 @@
  * 
  */
 
-function validMountainArray(arr: number[]): boolean {
+function validMountainArray(arr) {
   if (arr.length < 3) return false;
 
   let flag = true;//true = increasing, false = decreasing
